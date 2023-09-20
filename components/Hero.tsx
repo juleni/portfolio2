@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import juleniImg from "./assets/pic-juleni.png";
+import introImg from "./assets/pic-intro.png";
 import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {};
@@ -22,7 +22,7 @@ function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        src={juleniImg}
+        src={introImg}
         className="relative object-cover"
         alt="Julian Legeny"
       />
@@ -30,7 +30,7 @@ function Hero({}: Props) {
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software engineer
         </h2>
-        <h1 className="text-4xl lg:text-6xl px-10">
+        <h1 className="text-4xl lg:text-6xl px-10 text-[#f7ab0a]/50">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#f7ab0a" />
         </h1>
