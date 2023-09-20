@@ -13,7 +13,7 @@ function About({}: Props) {
                  max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        About
+        About Me
       </h3>
       <motion.img
         initial={{ x: -200, opacity: 0 }}
@@ -25,13 +25,15 @@ function About({}: Props) {
                    md:w-64 md:h-95 xl:w-[480px] xl:h-[640px]"
       ></motion.img>
       <div className="space-y-5 px-0 md:px-10 mt-5">
+        {/**
         <h4 className="text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
           about me
         </h4>
-        <div className="h-[300px] md:h-[500px] xl:h-full overflow-y-auto">
-          <p className="text-sm">
+  */}
+        <div className="h-[350px] md:h-[600px] xl:h-full overflow-y-auto">
+          <p className="text-base">
             Ever since I was a child, during my studies at primary school (90s
             of the last century) I was enchanted by computers - in that time
             8-bit Didactics Alpha, where I gained my first experience with
@@ -63,7 +65,7 @@ function About({}: Props) {
             In the evenings and my free time, I started studying the JAVA and
             JavaScript languages again, especially the changes that took place
             during that time. I was very interested in the Java Spring, as well
-            as Node,js and React framework.
+            as Node.js and React framework.
             <br />
             From May 2021, I started working as a full-stack developer in an
             international IT corporation, where I participated in various
