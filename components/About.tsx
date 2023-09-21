@@ -32,7 +32,10 @@ function About({}: Props) {
           about me
         </h4>
   */}
-        <div className="h-[350px] md:h-[600px] xl:h-full overflow-y-auto">
+        <div
+          className="h-[350px] md:h-[600px] xl:h-full overflow-y-auto scrollbar
+                      scrollbar-thin  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/60"
+        >
           <p className="text-base">
             Ever since I was a child, during my studies at primary school (90s
             of the last century) I was enchanted by computers - in that time
