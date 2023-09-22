@@ -3,6 +3,12 @@ import { motion } from "framer-motion";
 import Skill from "./Skill";
 type Props = {};
 
+enum Level {
+  LOW = "basics",
+  MID = "middle",
+  HIGH = "high",
+}
+
 function Skills({}: Props) {
   return (
     <motion.div
@@ -19,18 +25,38 @@ function Skills({}: Props) {
         Hover over an icon for knowledge level
       </h3>
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+        <Skill logoUrl="logo-html5.svg" techLevel={Level.HIGH} />
+        <Skill logoUrl="logo-css3.svg" techLevel={Level.MID} />
+        <Skill logoUrl="logo-js.png" techLevel={Level.HIGH} />
+        <Skill logoUrl="logo-ts.png" techLevel={Level.MID} />
+        <Skill
+          logoUrl="logo-nodejs.svg"
+          techLevel={Level.MID}
+          style="p-3 bg-slate-100"
+        />
+        <Skill
+          logoUrl="logo-react.svg"
+          techLevel={Level.HIGH}
+          style="p-1 bg-slate-100"
+        />
+        <Skill logoUrl="logo-nextjs.svg" techLevel={Level.MID} style="" />
+        <Skill
+          logoUrl="logo-nestjs.svg"
+          techLevel={Level.MID}
+          style="p-2 bg-white"
+        />
+        <Skill logoUrl="logo-java.png" techLevel={Level.MID} />
+        <Skill
+          logoUrl="logo-spring.png"
+          techLevel={Level.LOW}
+          style="p-1 bg-gray-200"
+        />
+        <Skill logoUrl="logo-csharp.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="logo-python.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="logo-azure.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="logo-sql.png" techLevel={Level.HIGH} />
+        <Skill logoUrl="logo-pohoda.png" techLevel={Level.MID} />
+        <Skill logoUrl="logo-wexbo.png" techLevel={Level.HIGH} />
       </div>
     </motion.div>
   );
