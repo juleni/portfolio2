@@ -66,6 +66,7 @@ function ExperienceCardLT({}: Props) {
           <li>Business logic implementation - java, pl/sql</li>
         </ul>
       </div>
+      <div className=" w-[500px] md:w-[600px] xl:w-[900px] relative top-[-80%] bg-[#f7ab0a]/10 left-0 h-2 -skew-y-12" />
     </article>
   );
 }

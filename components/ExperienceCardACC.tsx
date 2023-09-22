@@ -68,7 +68,7 @@ function ExperienceCardACC({}: Props) {
           <li>Translations and creation of manuals for beekeeping equipment</li>
         </ul>
       </div>
-      <div className=" w-[500px] md:w-[600px] xl:w-[900px] relative top-[-50%] bg-[#f7ab0a]/10 left-0 h-[500px] -skew-y-12" />
+      <div className=" w-[500px] md:w-[600px] xl:w-[900px] relative top-[-95%] bg-[#f7ab0a]/10 left-0 h-2 -skew-y-12" />
     </article>
   );
 }

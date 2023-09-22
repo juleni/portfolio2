@@ -97,6 +97,7 @@ function ExperienceCardOSS({}: Props) {
           <li>Inventory management implementation - module for shopping</li>
         </ul>
       </div>
+      <div className=" w-[500px] md:w-[600px] xl:w-[900px] relative top-[-95%] bg-[#f7ab0a]/10 left-0 h-2 -skew-y-12" />
     </article>
   );
 }

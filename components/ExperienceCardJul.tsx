@@ -15,7 +15,7 @@ function ExperienceCardJul({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 rounded-2xl xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src="images/slovakhouses.jpg"
+        src="images/slovakhouses.png"
         alt=""
       />
       <div className="px-0 md:px-10">
@@ -54,6 +54,7 @@ function ExperienceCardJul({}: Props) {
           <li>Arranging the reconstruction of real estate</li>
         </ul>
       </div>
+      <div className=" w-[500px] md:w-[600px] xl:w-[900px] relative top-[-80%] bg-[#f7ab0a]/10 left-0 h-2 -skew-y-12" />
     </article>
   );
 }
