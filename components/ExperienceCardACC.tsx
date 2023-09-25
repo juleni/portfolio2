@@ -15,7 +15,7 @@ function ExperienceCardACC({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src="./images/accenture.png"
+        src="./assets/images/accenture.png"
         alt=""
       />
 
