@@ -21,10 +21,10 @@ function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
         src="images/pic-about.jpg"
-        className="mt-5 -mb-24 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg 
+        className="mt-10 -mb-24 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg 
                    md:w-64 md:h-95 xl:w-[480px] xl:h-[640px]"
       ></motion.img>
-      <div className="space-y-5 px-0 md:px-10 mt-5">
+      <div className="space-y-5 px-0 md:px-10 mt-10">
         {/**
         <h4 className="text-4xl font-semibold">
           Here is a{" "}

@@ -24,7 +24,7 @@ function Skills({}: Props) {
       <h3 className="absolute uppercase top-36 tracking-[3px] text-gray-500 text-sm">
         Hover over an icon for knowledge level
       </h3>
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-4 gap-5 mt-[90px]">
         <Skill logoUrl="images/logo-html5.svg" techLevel={Level.HIGH} />
         <Skill logoUrl="images/logo-css3.svg" techLevel={Level.MID} />
         <Skill logoUrl="images/logo-js.png" techLevel={Level.HIGH} />
