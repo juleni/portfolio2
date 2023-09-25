@@ -30,22 +30,22 @@ function ExperienceCardACC({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src="/image/logo-html5.svg"
+            src={config.basePath + "/logo-html5.svg"}
             alt="HTML 5"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="/image/logo-css3.svg"
+            src={config.basePath + "/logo-css3.svg"}
             alt="CSS 3"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="/image/logo-js.png"
+            src={config.basePath + "/logo-js.png"}
             alt="Javascript"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="/image/logo-ts.png"
+            src={config.basePath + "/logo-ts.png"}
             alt="Typescript"
           />
         </div>
