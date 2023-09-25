@@ -16,6 +16,7 @@ const nextConfig = {
 
   // Optional: Change the output directory `out` -> `dist`
   // distDir: "out",
+
   images: {
     unoptimized: true,
   },

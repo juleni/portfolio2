@@ -36,3 +36,4 @@ next-env.d.ts
 
 _Manual
 public/images
+/dist
