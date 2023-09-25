@@ -16,7 +16,7 @@ function ExperienceCardJul({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 rounded-2xl xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src={config.basePath + "/slovakhouses.png"}
+        src={config.basePath + "/image/slovakhouses.png"}
         alt=""
       />
       <div className="px-0 md:px-10">
@@ -29,17 +29,17 @@ function ExperienceCardJul({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-html.png"}
+            src={config.basePath + "/image/logo-html.png"}
             alt="HTML"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-css.png"}
+            src={config.basePath + "/image/logo-css.png"}
             alt="CSS"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-js.png"}
+            src={config.basePath + "/image/logo-js.png"}
             alt="JavaScript"
           />
         </div>

@@ -16,7 +16,7 @@ function ExperienceCardApi({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src={config.basePath + "/apiprodukt.png"}
+        src={config.basePath + "/image/apiprodukt.png"}
         alt=""
       />
       <div className="px-0 md:px-10">
@@ -29,32 +29,32 @@ function ExperienceCardApi({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-pohoda.png"}
+            src={config.basePath + "/image/logo-pohoda.png"}
             alt="Pohoda Stormware"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-wexbo.png"}
+            src={config.basePath + "/image/logo-wexbo.png"}
             alt="WEXBO - e-shop"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-html5.svg"}
+            src={config.basePath + "/image/logo-html5.svg"}
             alt="HTML 5"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-css3.svg"}
+            src={config.basePath + "/image/logo-css3.svg"}
             alt="CSS 3"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-opencart.png"}
+            src={config.basePath + "/image/logo-opencart.png"}
             alt="OpenCart"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-mysql.png"}
+            src={config.basePath + "/image/logo-mysql.png"}
             alt="MySQL"
           />
         </div>

@@ -16,7 +16,7 @@ function ExperienceCardOSS({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src={config.basePath + "/oss.png"}
+        src={config.basePath + "/image/oss.png"}
         alt="OpenSubsystems s.r.o."
       />
       <div className="px-0 md:px-10">
@@ -29,48 +29,48 @@ function ExperienceCardOSS({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-html.png"}
+            src={config.basePath + "/image/logo-html.png"}
             alt="HTML"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-css.png"}
+            src={config.basePath + "/image/logo-css.png"}
             alt="CSS"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-js.png"}
+            src={config.basePath + "/image/logo-js.png"}
             alt="JavaScript"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-java.png"}
+            src={config.basePath + "/image/logo-java.png"}
             alt="JAVA 2"
           />
 
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-mysql.png"}
+            src={config.basePath + "/image/logo-mysql.png"}
             alt="MySQL"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-postgresql.png"}
+            src={config.basePath + "/image/logo-postgresql.png"}
             alt="Postgre SQL"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-oracle.png"}
+            src={config.basePath + "/image/logo-oracle.png"}
             alt="ORACLE"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-db2.png"}
+            src={config.basePath + "/image/logo-db2.png"}
             alt="IBM DB2"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src={config.basePath + "/logo-mssql.png"}
+            src={config.basePath + "/image/logo-mssql.png"}
             alt="MS SQL Server"
           />
         </div>
