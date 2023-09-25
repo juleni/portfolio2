@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
+const config = require("../next.config");
 type Props = {};
 
 type ProjectType = {
@@ -14,21 +15,21 @@ type ProjectType = {
 const projects = [
   {
     id: 1,
-    img: "/image/projects/ai-image-generator.jpg",
+    img: config.basePath + "/image/projects/ai-image-generator.jpg",
     url: "https://ai-image-generator-brown.vercel.app/",
     name: "AI Image Generator",
     desc: "AI Image generator uses OpenAI API of trained neural network DALL-E to create images from text captions.",
   },
   {
     id: 2,
-    img: "/image/projects/trello-clone.jpg",
+    img: config.basePath + "/image/projects/trello-clone.jpg",
     url: "https://trello-clone-juleni.vercel.app/",
     name: "GPT Trello Clone",
     desc: "Chat GPT Trello Clone allows to create, move, delete, search tasks and summarising them.",
   },
   {
     id: 3,
-    img: "/image/projects/sorting-hat.jpg",
+    img: config.basePath + "/image/projects/sorting-hat.jpg",
     url: "https://ai-sorting-hat.vercel.app/",
     name: "AI Sorting Hat",
     desc: "The sorting hat determines based on your answer to which of the four school Houses you belong most to. These four Houses are Gryffindor, Hufflepuff, Ravenclaw, and Slytherin.",
