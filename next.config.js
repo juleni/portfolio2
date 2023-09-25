@@ -3,9 +3,10 @@
  */
 
 const isProd = process.env.NODE_ENV === "production";
+console.log("=== isProd ===>" + isProd);
 
 const nextConfig = {
-  // basePath: isProd ? "/portfolio2" : "",
+  basePath: isProd ? "/portfolio2" : "",
   output: "export",
 
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
@@ -15,7 +16,7 @@ const nextConfig = {
   // skipTrailingSlashRedirect: true,
 
   // Optional: Change the output directory `out` -> `dist`
-  // distDir: "out",
+  // distDir: "dist",
 
   images: {
     unoptimized: true,
