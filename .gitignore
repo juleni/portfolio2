@@ -11,6 +11,7 @@
 # next.js
 /.next/
 /out/
+/dist/
 
 # production
 /build
@@ -36,4 +37,4 @@ next-env.d.ts
 
 _Manual
 public/images
-/dist
+
