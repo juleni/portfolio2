@@ -15,7 +15,7 @@ function ExperienceCardBIT({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src="images/bit.png"
+        src="/image/bit.png"
         alt="OpenSubsystems s.r.o."
       />
       <div className="px-0 md:px-10">
@@ -28,28 +28,28 @@ function ExperienceCardBIT({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-html.png"
+            src="/image/logo-html.png"
             alt="HTML"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-css.png"
+            src="/image/logo-css.png"
             alt="CSS"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-js.png"
+            src="/image/logo-js.png"
             alt="JavaScript"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-java.png"
+            src="/image/logo-java.png"
             alt="JAVA 2"
           />
 
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-db2.png"
+            src="/image/logo-db2.png"
             alt="IBM DB2"
           />
         </div>

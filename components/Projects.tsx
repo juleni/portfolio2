@@ -14,21 +14,21 @@ type ProjectType = {
 const projects = [
   {
     id: 1,
-    img: "images/projects/ai-image-generator.jpg",
+    img: "/image/projects/ai-image-generator.jpg",
     url: "https://ai-image-generator-brown.vercel.app/",
     name: "AI Image Generator",
     desc: "AI Image generator uses OpenAI API of trained neural network DALL-E to create images from text captions.",
   },
   {
     id: 2,
-    img: "images/projects/trello-clone.jpg",
+    img: "/image/projects/trello-clone.jpg",
     url: "https://trello-clone-juleni.vercel.app/",
     name: "GPT Trello Clone",
     desc: "Chat GPT Trello Clone allows to create, move, delete, search tasks and summarising them.",
   },
   {
     id: 3,
-    img: "images/projects/sorting-hat.jpg",
+    img: "/image/projects/sorting-hat.jpg",
     url: "https://ai-sorting-hat.vercel.app/",
     name: "AI Sorting Hat",
     desc: "The sorting hat determines based on your answer to which of the four school Houses you belong most to. These four Houses are Gryffindor, Hufflepuff, Ravenclaw, and Slytherin.",

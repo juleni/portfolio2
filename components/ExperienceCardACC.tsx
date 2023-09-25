@@ -15,7 +15,7 @@ function ExperienceCardACC({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src="/images/accenture.png"
+        src="/image/accenture.png"
         alt=""
       />
 
@@ -29,22 +29,22 @@ function ExperienceCardACC({}: Props) {
         <div className="flex space-x-2 my-2">
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-html5.svg"
+            src="/image/logo-html5.svg"
             alt="HTML 5"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-css3.svg"
+            src="/image/logo-css3.svg"
             alt="CSS 3"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-js.png"
+            src="/image/logo-js.png"
             alt="Javascript"
           />
           <img
             className="h-10 w-10 rounded-full"
-            src="images/logo-ts.png"
+            src="/image/logo-ts.png"
             alt="Typescript"
           />
         </div>

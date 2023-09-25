@@ -25,42 +25,42 @@ function Skills({}: Props) {
         Hover over an icon for knowledge level
       </h3>
       <div className="grid grid-cols-4 gap-5 mt-[90px]">
-        <Skill logoUrl="images/logo-html5.svg" techLevel={Level.HIGH} />
-        <Skill logoUrl="images/logo-css3.svg" techLevel={Level.MID} />
-        <Skill logoUrl="images/logo-js.png" techLevel={Level.HIGH} />
-        <Skill logoUrl="images/logo-ts.png" techLevel={Level.MID} />
+        <Skill logoUrl="/image/logo-html5.svg" techLevel={Level.HIGH} />
+        <Skill logoUrl="/image/logo-css3.svg" techLevel={Level.MID} />
+        <Skill logoUrl="/image/logo-js.png" techLevel={Level.HIGH} />
+        <Skill logoUrl="/image/logo-ts.png" techLevel={Level.MID} />
         <Skill
-          logoUrl="images/logo-nodejs.svg"
+          logoUrl="/image/logo-nodejs.svg"
           techLevel={Level.MID}
           style="p-3 bg-slate-100"
         />
         <Skill
-          logoUrl="images/logo-react.svg"
+          logoUrl="/image/logo-react.svg"
           techLevel={Level.HIGH}
           style="p-1 bg-slate-100"
         />
         <Skill
-          logoUrl="images/logo-nextjs.svg"
+          logoUrl="/image/logo-nextjs.svg"
           techLevel={Level.MID}
           style=""
         />
         <Skill
-          logoUrl="images/logo-nestjs.svg"
+          logoUrl="/image/logo-nestjs.svg"
           techLevel={Level.MID}
           style="p-2 bg-white"
         />
-        <Skill logoUrl="images/logo-java.png" techLevel={Level.MID} />
+        <Skill logoUrl="/image/logo-java.png" techLevel={Level.MID} />
         <Skill
-          logoUrl="images/logo-spring.png"
+          logoUrl="/image/logo-spring.png"
           techLevel={Level.LOW}
           style="p-1 bg-gray-200"
         />
-        <Skill logoUrl="images/logo-csharp.svg" techLevel={Level.LOW} />
-        <Skill logoUrl="images/logo-python.svg" techLevel={Level.LOW} />
-        <Skill logoUrl="images/logo-azure.svg" techLevel={Level.LOW} />
-        <Skill logoUrl="images/logo-sql.png" techLevel={Level.HIGH} />
-        <Skill logoUrl="images/logo-pohoda.png" techLevel={Level.MID} />
-        <Skill logoUrl="images/logo-wexbo.png" techLevel={Level.HIGH} />
+        <Skill logoUrl="/image/logo-csharp.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="/image/logo-python.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="/image/logo-azure.svg" techLevel={Level.LOW} />
+        <Skill logoUrl="/image/logo-sql.png" techLevel={Level.HIGH} />
+        <Skill logoUrl="/image/logo-pohoda.png" techLevel={Level.MID} />
+        <Skill logoUrl="/image/logo-wexbo.png" techLevel={Level.HIGH} />
       </div>
     </motion.div>
   );
