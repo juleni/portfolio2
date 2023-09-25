@@ -5,7 +5,7 @@ type Props = {};
 function ExperienceCardBIT({}: Props) {
   return (
     <article
-      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px]
+      className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[400px] md:w-[600px]
                  xl:w-[900px] snap-center bg-[#292929] p-5 hover:opacity-60 cursor-pointer 
                  transition-opacity duration-200 overflow-hidden"
     >
