@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+const config = require("../next.config");
 type Props = {};
 
 function ExperienceCardACC({}: Props) {
@@ -15,7 +16,7 @@ function ExperienceCardACC({}: Props) {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 xl:w-[200px] xl:h-[200px] object-center object-scale-down"
-        src="/image/accenture.png"
+        src={config.basePath + "/image/accenture.png"}
         alt=""
       />
 
